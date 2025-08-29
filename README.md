@@ -2,6 +2,21 @@
 
 This repository contains the code and models for classifying errors injected into NLP models (such as OPUS and T5) under different precision formats (FP16 and FP32).
 
+Cite the work in:
+
+```
+@ARTICLE{11145323,
+  author={Zhu, Jinhua and Conde, Javier and Gao, Zhen and Reviriego, Pedro and Liu, Shanshan and Lombardi, Fabrizio},
+  journal={IEEE Transactions on Computers}, 
+  title={Concurrent Linguistic Error Detection (CLED): A New Methodology for Error Detection in Large Language Models}, 
+  year={2025},
+  volume={74},
+  number={11},
+  pages={3638-3651},
+  keywords={Protection;Feature extraction;Machine learning;Neural networks;Linguistics;Computational modeling;Electronic mail;Transformers;Large language models;Hardware;LLMs;soft errors;concurrent error detection;T5;OPUS-MT.},
+  doi={10.1109/TC.2025.3603682}}
+```
+
 ## Datasets
 
 The datasets used in this project are based on CNN and IWSLT2017. They include fault-free predictions and predictions with single bit-flip fault injections.
